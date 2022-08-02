@@ -8,4 +8,8 @@ describe('<Heading />', () => {
     const heading = screen.getByRole('heading', { name: 'Example' });
     expect(heading).toBeInTheDocument();
   });
+  it('should match snapshot', () => {
+    const { container } = renderTheme(<Heading>Example</Heading>);
+    expect(container).toMatchSnapshot();
+  });
 });

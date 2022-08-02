@@ -1,0 +1,284 @@
+// Vitest Snapshot v1
+
+exports[`should match snapshot 1`] = `
+.c4 {
+  max-width: 120rem;
+  margin: 0 auto;
+  padding: 0;
+}
+
+.c7 {
+  color: #07090D;
+  font-size: 2.4rem;
+  text-transform: none;
+}
+
+.c2 {
+  position: fixed;
+  z-index: 5;
+  top: 0;
+  right: 0;
+  left: 0;
+  width: 100%;
+  border-bottom: #DDDDDD;
+  -webkit-transition: all 300ms ease-in-out;
+  transition: all 300ms ease-in-out;
+  background: transparent;
+}
+
+.c2 > .c3 {
+  padding-top: 0;
+  padding-bottom: 0;
+}
+
+.c2 .c6 {
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+.c5 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+}
+
+.c0 {
+  z-index: 6;
+  position: fixed;
+  top: 2rem;
+  right: 2rem;
+  width: 4rem;
+  height: 4rem;
+  background: transparent;
+  color: #FFFFFF;
+  border: none;
+  display: none;
+  cursor: pointer;
+  pointer-events: all;
+  right: 1rem;
+  color: #FFFFFF;
+}
+
+.c0 > svg {
+  width: 2.5rem;
+  height: 2.5rem;
+}
+
+.c8 {
+  -webkit-text-decoration: none;
+  text-decoration: none;
+  color: #FFFFFF;
+}
+
+.c8 > img {
+  height: 3rem;
+}
+
+.c9 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-flow: row wrap;
+  -ms-flex-flow: row wrap;
+  flex-flow: row wrap;
+}
+
+.c10 {
+  display: block;
+  -webkit-text-decoration: none;
+  text-decoration: none;
+  text-align: center;
+  font-size: 1.6rem;
+  padding: 1.6rem;
+  color: #FFFFFF;
+  position: relative;
+}
+
+.c10::after {
+  content: '';
+  position: absolute;
+  left: 50%;
+  bottom: 0.75rem;
+  width: 0;
+  height: 0.2rem;
+  background: #FFFFFF;
+  -webkit-transition: all 300ms ease-in-out;
+  transition: all 300ms ease-in-out;
+}
+
+.c10:hover::after {
+  left: 25%;
+  width: 50%;
+}
+
+.c1 {
+  display: inline-block;
+  vertical-align: middle;
+  overflow: hidden;
+}
+
+@media (max-width:768px) {
+  .c7 {
+    font-size: 2.4rem;
+  }
+}
+
+@media (max-width:414px) {
+  .c7 {
+    font-size: 1.6rem;
+  }
+}
+
+@media (max-width:362px) {
+  .c7 {
+    font-size: 1.2rem;
+  }
+}
+
+@media (max-width:768px) {
+  .c2 {
+    display: block;
+    position: fixed;
+    text-align: center;
+    background: #07090D;
+    padding: 4.8rem 0;
+    max-width: 32rem;
+    height: 100rem;
+    overflow-y: auto;
+    right: 0;
+    left: -32rem;
+    -webkit-transition: all 300ms ease-in-out;
+    transition: all 300ms ease-in-out;
+  }
+
+  .c2 > .c3 {
+    padding-top: 0;
+    padding-bottom: 0;
+  }
+
+  .c2 .c6 {
+    margin-top: 0;
+    margin-bottom: 5rem;
+  }
+}
+
+@media (max-width:768px) {
+  .c5 {
+    display: block;
+    text-align: center;
+    padding: 4.8rem 0;
+  }
+}
+
+@media (max-width:768px) {
+  .c0 {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-align-items: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -webkit-box-pack: center;
+    -webkit-justify-content: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+  }
+}
+
+@media (max-width:768px) {
+  .c0 {
+    left: 1rem;
+  }
+}
+
+@media (max-width:768px) {
+  .c9 {
+    -webkit-flex-flow: column wrap;
+    -ms-flex-flow: column wrap;
+    flex-flow: column wrap;
+    -webkit-align-content: center;
+    -ms-flex-line-pack: center;
+    align-content: center;
+  }
+}
+
+<div>
+  <button
+    aria-label="Open/Close menu"
+    class="c0"
+  >
+    <svg
+      aria-hidden="true"
+      aria-label="Open menu"
+      class="c1"
+      fill="currentColor"
+      focusable="false"
+      viewBox="0 0 24 24"
+      xmlns="http://www.w3.org/2000/svg"
+    >
+      <path
+        d="M0 0h24v24H0V0z"
+        fill="none"
+      />
+      <path
+        d="M3 18h18v-2H3v2zm0-5h18v-2H3v2zm0-7v2h18V6H3z"
+      />
+    </svg>
+  </button>
+  <div
+    aria-hidden="false"
+    class="c2"
+  >
+    <div
+      class="c3 c4"
+    >
+      <div
+        class="c5"
+      >
+        <h1
+          class="c6 c7"
+        >
+          <a
+            class="c8"
+            href="#"
+          >
+            VisualState
+          </a>
+        </h1>
+        <nav
+          aria-label="Main menu"
+          class="c9"
+        >
+          <a
+            class="c10"
+            href="/login"
+            target="_self"
+          >
+            Entrar
+          </a>
+          <a
+            class="c10"
+            href="/cadastro"
+            target="_self"
+          >
+             
+            Criar Conta
+          </a>
+        </nav>
+      </div>
+    </div>
+  </div>
+</div>
+`;

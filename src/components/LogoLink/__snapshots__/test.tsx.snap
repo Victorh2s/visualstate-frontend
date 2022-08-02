@@ -1,0 +1,51 @@
+// Vitest Snapshot v1
+
+exports[`<LogoLink /> > should match snapshot 1`] = `
+.c0 {
+  color: #07090D;
+  font-size: 2.4rem;
+  text-transform: none;
+}
+
+.c1 {
+  -webkit-text-decoration: none;
+  text-decoration: none;
+  color: #FFFFFF;
+}
+
+.c1 > img {
+  height: 3rem;
+}
+
+@media (max-width:768px) {
+  .c0 {
+    font-size: 2.4rem;
+  }
+}
+
+@media (max-width:414px) {
+  .c0 {
+    font-size: 1.6rem;
+  }
+}
+
+@media (max-width:362px) {
+  .c0 {
+    font-size: 1.2rem;
+  }
+}
+
+<h1
+  class="c0"
+>
+  <a
+    class="c1"
+    href="#target"
+  >
+    <img
+      alt="Olá mundo"
+      src="image.jpg"
+    />
+  </a>
+</h1>
+`;
