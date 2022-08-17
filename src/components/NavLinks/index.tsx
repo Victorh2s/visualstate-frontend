@@ -4,11 +4,10 @@ import { MenuLink } from '../MenuLink';
 export const NavLinks = () => {
   return (
     <Styled.Container aria-label="Main menu">
-      <MenuLink link="/login" newTab={false}>
+      <MenuLink newTab={false} url="/">
         Entrar
       </MenuLink>
-      <MenuLink link="/cadastro" newTab={false}>
-        {' '}
+      <MenuLink newTab={false} url="/cadastro">
         Criar Conta
       </MenuLink>
     </Styled.Container>

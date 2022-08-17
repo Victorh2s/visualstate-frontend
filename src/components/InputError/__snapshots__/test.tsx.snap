@@ -1,0 +1,16 @@
+// Vitest Snapshot v1
+
+exports[`<InputError /> > should match to snapchot 1`] = `
+.c0 {
+  color: rgb(247,38,115);
+  margin: 0.8rem 0 3.2rem;
+}
+
+<div>
+  <p
+    class="c0"
+  >
+    error aqui
+  </p>
+</div>
+`;

@@ -21,7 +21,7 @@ exports[`<Heading /> > should match snapshot 1`] = `
 
 @media (max-width:362px) {
   .c0 {
-    font-size: 1.2rem;
+    font-size: 1rem;
   }
 }
 

@@ -5,13 +5,13 @@ import { theme } from '../../styles/theme';
 
 describe('<Menu />', () => {
   it('should render the button', () => {
-    renderTheme(<Menu />);
+    renderTheme(<Menu menuid={false} />);
 
     expect(screen.getByLabelText('Open/Close menu')).toBeInTheDocument();
   });
 
   it('should render text', () => {
-    renderTheme(<Menu />);
+    renderTheme(<Menu menuid={false} />);
 
     expect(screen.getByText('VisualState')).toBeInTheDocument();
     expect(screen.getByText('Entrar')).toBeInTheDocument();
@@ -19,7 +19,7 @@ describe('<Menu />', () => {
   });
 
   it('Testing functions of button', () => {
-    renderTheme(<Menu />);
+    renderTheme(<Menu menuid={false} />);
 
     const button = screen.getByLabelText('Open/Close menu');
     const menuContainer = button.nextSibling;
@@ -44,7 +44,7 @@ describe('<Menu />', () => {
 });
 
 it('should match snapshot', () => {
-  const { container } = renderTheme(<Menu />);
+  const { container } = renderTheme(<Menu menuid={false} />);
 
   expect(container).toMatchSnapshot();
 });

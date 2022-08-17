@@ -1,7 +1,8 @@
 import styled, { css } from 'styled-components';
 
-export const Container = styled.a`
+export const Container = styled.div`
 ${({ theme }) => css`
+>a{
   display: block;
   text-decoration: none;
   text-align: center;
@@ -23,5 +24,7 @@ ${({ theme }) => css`
     left: 25%;
     width: 50%;
   }
+}
+
 `}
 `;

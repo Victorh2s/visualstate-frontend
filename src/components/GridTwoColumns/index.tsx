@@ -1,5 +1,5 @@
-import { Heading } from 'components/Heading';
-import { SectionBackgroundSvg } from 'components/SectionBackgroundSvg';
+import { Heading } from '../Heading';
+import { SectionBackgroundSvg } from '../SectionBackgroundSvg';
 import { motion } from 'framer-motion';
 import * as Frame from '../Animation/animation';
 import { useState } from 'react';
@@ -54,6 +54,7 @@ export const GridTwoColumns = () => {
               <Styled.SourceContainer>
                 <Styled.videos
                   src="/assets/uploads/video1.mp4"
+                  aria-label="video1"
                   autoPlay
                   loop
                   muted
@@ -62,6 +63,7 @@ export const GridTwoColumns = () => {
               <Styled.SourceContainer>
                 <Styled.videos
                   src="/assets/uploads/video2.mp4"
+                  aria-label="video2"
                   autoPlay
                   loop
                   muted
@@ -70,6 +72,7 @@ export const GridTwoColumns = () => {
               <Styled.SourceContainer>
                 <Styled.videos
                   src="/assets/uploads/video3.mp4"
+                  aria-label="video3"
                   autoPlay
                   loop
                   muted

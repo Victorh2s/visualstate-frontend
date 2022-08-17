@@ -4,7 +4,7 @@ import { LogoLink, LogoLinkProps } from '.';
 export default {
   title: 'LogoLink',
   component: LogoLink,
-  args: {srcImg:'', text:'VisualState', }
+  args: { srcImg: '', text: 'VisualState' },
 } as Meta<LogoLinkProps>;
 
 export const Template: Story<LogoLinkProps> = (args) => {

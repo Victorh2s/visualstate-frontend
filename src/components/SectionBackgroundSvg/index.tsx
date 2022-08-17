@@ -1,5 +1,5 @@
 import * as Styled from './styles';
-import { SectionContainer, SectionContainerProps } from '../SectionContainer';
+import { SectionContainer } from '../SectionContainer';
 
 export type SectionBackgroundSvgProps = {
   children: React.ReactNode | string;

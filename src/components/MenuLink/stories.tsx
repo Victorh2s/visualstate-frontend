@@ -4,7 +4,7 @@ import { MenuLink, MenuLinkProps } from '.';
 export default {
   title: 'MenuLink',
   component: MenuLink,
-  args:{children:'Menu Link', link:'#'}
+  args: { children: 'Menu Link', link: '#' },
 } as Meta<MenuLinkProps>;
 
 export const Template: Story<MenuLinkProps> = (args) => {
@@ -14,4 +14,3 @@ export const Template: Story<MenuLinkProps> = (args) => {
     </div>
   );
 };
-

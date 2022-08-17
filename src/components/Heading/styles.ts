@@ -3,7 +3,7 @@ import { HeadingProps } from '.';
 
 const titleSize = {
   supersmall: (theme: DefaultTheme) => css`
-  font-size: ${theme.font.sizes.suppersmall};
+  font-size: ${theme.font.sizes.xxsmall};
     ${mediaFont(theme)};
   `,
   small: (theme: DefaultTheme) => css`
@@ -32,7 +32,7 @@ const mediaFont = (theme: DefaultTheme) => css`
     font-size: ${theme.font.sizes.small};
   }
   @media ${theme.media.lteSuperSmall} {
-    font-size: ${theme.font.sizes.suppersmall};
+    font-size: ${theme.font.sizes.xxsmall};
   }
 `;
 

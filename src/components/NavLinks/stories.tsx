@@ -1,5 +1,5 @@
 import { Meta, Story } from '@storybook/react/types-6-0';
-import { NavLinks,} from '.';
+import { NavLinks } from '.';
 
 export default {
   title: 'NavLinks',

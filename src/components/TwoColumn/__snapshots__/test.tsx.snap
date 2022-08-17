@@ -21,7 +21,7 @@ exports[`<TwoColumn /> > should match to snapshot 1`] = `
 }
 
 .c0 .c2 {
-  margin-bottom: 4.0rem;
+  margin-bottom: 3.6rem;
 }
 
 .c4 {
@@ -42,7 +42,7 @@ exports[`<TwoColumn /> > should match to snapshot 1`] = `
 
 @media (max-width:362px) {
   .c3 {
-    font-size: 1.2rem;
+    font-size: 1rem;
   }
 }
 

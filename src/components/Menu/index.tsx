@@ -5,8 +5,13 @@ import { NavLinks } from '../NavLinks';
 import { Menu as MenuIcon } from '@styled-icons/material-outlined/Menu';
 import { Close as CloseIcon } from '@styled-icons/material-outlined/Close';
 import { useEffect, useState } from 'react';
+import { NavLinksID, NavLinksProps } from '../NavLinkID';
 
-export const Menu = () => {
+export type MenuProps = {
+  menuid: boolean;
+} & NavLinksProps;
+
+export const Menu = ({ menuid, username, srcImg }: MenuProps) => {
   const [Visible, SetVisible] = useState(false);
   const [background, setBackground] = useState(false);
 
@@ -44,10 +49,17 @@ export const Menu = () => {
         Background={background}
       >
         <SectionContainer>
-          <Styled.MenuContainer>
-            <LogoLink text="VisualState" link="#" />
-            <NavLinks />
-          </Styled.MenuContainer>
+          {menuid ? (
+            <Styled.MenuContainer>
+              <LogoLink text="VisualState" link="#" />
+              <NavLinksID srcImg={srcImg} username={username} />
+            </Styled.MenuContainer>
+          ) : (
+            <Styled.MenuContainer>
+              <LogoLink text="VisualState" link="#" />
+              <NavLinks />
+            </Styled.MenuContainer>
+          )}
         </SectionContainer>
       </Styled.Container>
     </>

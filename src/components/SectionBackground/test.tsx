@@ -8,15 +8,19 @@ const props: SectionBackgroundProps = {
 };
 describe('<SectionBackground />', () => {
   it('should render SectionBackground with background false', () => {
-   const { container } = renderTheme(<SectionBackground {...props}   background={false} />);
-    
+    const { container } = renderTheme(
+      <SectionBackground {...props} background={false} />,
+    );
+
     expect(screen.getByText('Texto')).toBeInTheDocument();
     expect(container).toMatchSnapshot();
   });
   it('should render SectionBackground with background true', () => {
-    const { container } = renderTheme(<SectionBackground {...props}   background={true} />);
-     
-     expect(screen.getByText('Texto')).toBeInTheDocument();
-     expect(container).toMatchSnapshot();
-   });
+    const { container } = renderTheme(
+      <SectionBackground {...props} background={true} />,
+    );
+
+    expect(screen.getByText('Texto')).toBeInTheDocument();
+    expect(container).toMatchSnapshot();
+  });
 });

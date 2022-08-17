@@ -10,7 +10,6 @@ export default {
 export const Template: Story = () => {
   return (
     <div>
-      <Menu />
       <GridTwoColumns />
     </div>
   );

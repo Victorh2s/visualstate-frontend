@@ -1,9 +1,7 @@
-import styled, { css } from 'styled-components';
+import styled from 'styled-components';
 
 export const Container = styled.div`
-  ${({ theme }) => css`
   max-width: 120rem;
   margin: 0 auto;
-  padding: 0;
-  `}
+  padding: 0 auto;
 `;

@@ -1,11 +1,9 @@
 import * as Styled from './styles';
 
 export type TextComponentProps = {
-  text: string
+  text: string;
 };
 
-export const TextComponent = ({   text }: TextComponentProps) => {
-  
-    return <Styled.Container>{text}</Styled.Container>
- 
+export const TextComponent = ({ text }: TextComponentProps) => {
+  return <Styled.Container>{text}</Styled.Container>;
 };

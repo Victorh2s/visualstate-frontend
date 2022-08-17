@@ -1,0 +1,29 @@
+// Vitest Snapshot v1
+
+exports[`<Banner /> > should match to Snapshot 1`] = `
+.c0 {
+  width: 100%;
+  height: 22rem;
+  overflow: hidden;
+  cursor: pointer;
+}
+
+.c1 {
+  width: inherit;
+  height: inherit;
+  background: linear-gradient(to bottom,#0d0c0c 5%,transparent 100%);
+}
+
+<div>
+  <div
+    aria-label="Wrapper"
+    class="c0"
+    style="background-size: cover; background-position: center; background-image: url(https://source.unsplash.com/random/1000x1000?r=1);"
+  >
+    <div
+      aria-label="Gladient"
+      class="c1"
+    />
+  </div>
+</div>
+`;

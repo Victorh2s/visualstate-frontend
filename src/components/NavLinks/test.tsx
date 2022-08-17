@@ -14,17 +14,6 @@ describe('<NavLinks />', () => {
     expect(screen.queryAllByText(/links/i)).toHaveLength(0);
   });
 
-  it('should render links', () => {
-    renderTheme(<NavLinks />);
-    expect(screen.getByText(/Criar Conta/i).parentElement).toHaveStyleRule(
-      'flex-flow',
-      'column wrap',
-      {
-        media: theme.media.lteOrEqMedium,
-      },
-    );
-  });
-
   it('should match snapshot', () => {
     const { container } = renderTheme(<NavLinks />);
     expect(container.firstChild).toMatchSnapshot();

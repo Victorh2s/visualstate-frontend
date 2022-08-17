@@ -57,6 +57,7 @@ export const theme = {
     lteOrEqSmall: '(max-width: 576px)',
     lteOrEqMedium: '(max-width: 768px)',
     lteOrEqLarge: '(max-width: 992px)',
+    lteOrEqXLarge: '(max-width: 1207px)',
     gteOrEqSmallest: '(min-width: 320px)',
     gteOrEqSmall: '(min-width: 576px)',
     gteOrEqMedium: '(min-width: 768px)',

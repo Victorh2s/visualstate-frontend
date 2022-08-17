@@ -9,7 +9,7 @@ export default {
 export const Template: Story = () => {
   return (
     <div>
-      <Menu />
+      <Menu srcImg="/" menuid={false} username="user" />
       <p>
         Lorem, ipsum dolor sit amet consectetur adipisicing elit. Pariatur in
         quibusdam porro provident ab doloribus, atque quisquam et facilis.

@@ -21,7 +21,7 @@ exports[`<SectionBackgroundSvg /> > should render SectionBackgroundSvg with back
 .c1 {
   max-width: 120rem;
   margin: 0 auto;
-  padding: 0;
+  padding: 0 auto;
 }
 
 <div>
@@ -58,7 +58,7 @@ exports[`<SectionBackgroundSvg /> > should render SectionBackgroundSvg with back
 .c1 {
   max-width: 120rem;
   margin: 0 auto;
-  padding: 0;
+  padding: 0 auto;
 }
 
 <div>
